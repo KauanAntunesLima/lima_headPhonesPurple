@@ -1,64 +1,117 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HeadPhone</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HeadPhone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+    rel="stylesheet"
+  />
   <style>
     body {
       font-family: 'Montserrat', sans-serif;
     }
   </style>
 </head>
-<body class="bg-[#800064] text-white overflow-hidden"></body>
+<body class="bg-[#800064] text-white overflow-hidden">
   <div class="relative w-full min-h-screen mx-auto">
 
-      <img src="./img/menu.png" alt="Menu" class="absolute left-0 top-0 w-[100px] h-[100px]">
+    <img
+      src="./img/menu.png"
+      alt="Menu"
+      class="absolute left-0 top-0
+             w-[50px] h-[50px]          
+             md:w-[100px] md:h-[100px]   
+             lg:w-[100px] lg:h-[100px]"  
+    />
 
-      <img src="./img/search.png" alt="Buscar" class="absolute left-[1340px] top-[34px] w-[32px] h-[32px]">
+    <img
+      src="./img/search.png"
+      alt="Buscar"
+      class="absolute
+             left-[280px] top-[15px] w-[20px] h-[20px]       
+             md:left-[733px] md:top-[35px] md:w-[32px] md:h-[32px] 
+             lg:left-[1340px] lg:top-[34px] lg:w-[32px] lg:h-[32px]" 
+    />
 
-       <!-- Título -->
-    <h1 class="absolute left-[100px] top-[185px] w-[380px] text-[96px] leading-[96px] text-[#D5B9CF]">
-      Razer<br>Kraken<br>BT
+    <h1
+      class="absolute
+             left-[25px] top-[90px] w-[505px] text-[24px] leading-[46px] text-[#D5B9CF]   
+             md:left-[30px] md:top-[133px] md:w-[505px] md:text-[48px] md:leading-[46px]  
+             lg:left-[100px] lg:top-[150px] lg:w-[380px] lg:text-[96px] lg:leading-[96px] lg:whitespace-pre-line" 
+    >
+      Razer&#10;Kraken&#10;BT
     </h1>
 
-    <!-- Descrição -->
-    <p class="absolute left-[100px] top-[542px] w-[380px] h-[173px] text-lg text-gray-200">
-      Be free to express your own style with the Razer Kraken BT. A wireless Bluetooth headset with headset lighting along with clear sounding 40mm drivers.
+    <p
+      class="absolute
+             left-[23px] top-[123px] w-[236px] h-[173px] text-[13px] text-gray-200     
+             md:left-[35px] md:top-[198px] md:w-[380px] md:h-[173px] md:text-[20px]      
+             lg:left-[100px] lg:top-[542px] lg:w-[380px] lg:h-[173px] lg:text-lg"        
+    >
+      Be free to express your own style with the Razer Kraken BT. A wireless Bluetooth
+      headset with headset lighting along with clear sounding 40mm drivers.
     </p>
 
-     <img src="./img/razer-kraken-bt.png" alt="Fone" class="absolute left-[525px] top-[210px] w-[715px] h-auto">
+    <img
+      src="./img/razer-kraken-bt.png"
+      alt="Fone"
+      class="absolute
+             left-[58px] top-[250px] w-[203px] h-[170px] object-contain         
+             md:left-[116px] md:top-[455px] md:w-[601px] md:h-[450px] object-contain  
+             lg:left-[525px] lg:top-[210px] lg:w-[715px] lg:h-auto"               
+    />
 
-    
-    <div class="absolute left-[770px] top-[152px] w-[200px] h-[50px] bg-white text-[#800064] font-bold text-xl flex items-center justify-center rounded shadow">
+    <div
+      class="absolute bg-white text-[#800064] font-bold flex items-center justify-center rounded shadow
+             left-[67px] top-[478px] w-[200px] h-[50px] text-base                      
+             md:left-[315px] md:top-[405px] md:w-[200px] md:h-[50px] md:text-xl       
+             lg:left-[770px] lg:top-[152px] lg:w-[200px] lg:h-[50px] lg:text-xl"     
+    >
       US$159.99
     </div>
 
     <a href="#">
-      <img src="./img/navigation.png" alt="Navegação" class="absolute left-[820px] top-[694px] w-[100px] h-[50px]">
+      <img
+        src="./img/navigation.png"
+        alt="Navegação"
+        class="absolute
+               left-[135px] top-[426px] w-[50px] h-[25px]              
+               md:left-[367px] md:top-[905px] md:w-[100px] md:h-[50px]  
+               lg:left-[820px] lg:top-[694px] lg:w-[100px] lg:h-[50px]" 
+      />
     </a>
 
-    <div class="absolute left-[1292px] top-[548px] flex flex-col gap-6">
-      <a href="#"><img src="./img/youtube.png" alt="YouTube" class="w-12 h-12" /></a>
-      <a href="#"><img src="./img/twitter.png" alt="Twitter" class="w-12 h-12" /></a>
-      <a href="#"><img src="./img/instagram.png" alt="Instagram" class="w-12 h-12" /></a>
-      <a href="#"><img src="./img/facebook.png" alt="Facebook" class="w-12 h-12" /></a>
+    <div
+      class="absolute flex flex-col gap-6
+             left-[284px] top-[381px]        w-[30px] h-[180px]               
+             md:left-[771px] md:top-[930px] md:w-auto md:h-auto           
+             lg:left-[1292px] lg:top-[548px]"                           
+    >
+      <a href="#"><img src="./img/youtube.png" alt="YouTube" class="w-7 h-7 md:w-12 md:h-12" /></a>
+      <a href="#"><img src="./img/twitter.png" alt="Twitter" class="w-7 h-7 md:w-12 md:h-12" /></a>
+      <a href="#"><img src="./img/instagram.png" alt="Instagram" class="w-7 h-7 md:w-12 md:h-12" /></a>
+      <a href="#"><img src="./img/facebook.png" alt="Facebook" class="w-7 h-7 md:w-12 md:h-12" /></a>
     </div>
 
-    <footer class="absolute left-0 top-[800px] w-[600px] h-[100px] bg-black flex items-center px-4">
-      <div class="w-[200px] h-full text-white text-center flex flex-col items-center justify-center text-sm border-r border-gray-700">
+    <footer
+      class="hidden md:flex bg-black text-white text-center text-sm px-4 items-center
+             md:absolute md:left-0 md:top-[1094px] md:w-[454px] md:h-[100px]
+             lg:absolute lg:left-0 lg:top-[800px] lg:w-[604px] lg:h-[100px]"
+    >
+      <div class="h-full border-r border-gray-700 flex flex-col items-center justify-center lg:w-[201px] md:w-[150px] w-full">
         <p class="text-gray-400">- 01 -</p>
         <p class="font-bold">FREQUENCY RESPONSE</p>
         <p>20Hz - 20kHz</p>
       </div>
-      <div class="w-[200px] h-full text-white text-center flex flex-col items-center justify-center text-sm border-r border-gray-700">
+      <div class="h-full border-r border-gray-700 flex flex-col items-center justify-center lg:w-[201px] md:w-[150px] w-full">
         <p class="text-gray-400">- 02 -</p>
         <p class="font-bold">IMPEDANCE</p>
         <p>32 Ω</p>
       </div>
-      <div class="w-[200px] h-full text-white text-center flex flex-col items-center justify-center text-sm">
+      <div class="h-full flex flex-col items-center justify-center lg:w-[201px] md:w-[154px] w-full">
         <p class="text-gray-400">- 03 -</p>
         <p class="font-bold">SENSITIVITY</p>
         <p>96 dB/mW a 1 KHz</p>
